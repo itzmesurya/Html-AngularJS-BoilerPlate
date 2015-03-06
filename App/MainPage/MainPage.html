@@ -5,10 +5,12 @@
 
         <script src="/js/angular.min.js"></script>
         <script src="/App/App.js"></script>
+        <script src="/App/MainPage/MainPage.Service.js"></script>
         <script src="/App/MainPage/MainPageController.js"></script>
         <title></title>
     </head>
     <body data-ng-controller="MainPage as vm">
+        <h1>{{vm.pageName}}</h1>
        {{ vm.testVal }}
     </body>
 </html>
